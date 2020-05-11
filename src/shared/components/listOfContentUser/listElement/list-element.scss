@@ -1,0 +1,59 @@
+@import "~$scss/variables.scss";
+@import "~$scss/font.scss";
+
+.list-element {
+  width: 200px;
+  height: 270px;
+  font: 13px "Yandex Sans", Arial, sans-serif;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid transparent;
+
+  &__hover-area {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:hover &__transparency {
+    opacity: 0.7;
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+
+  &__name:hover {
+    color: $base-hover-color;
+  }
+
+  &__current,
+  &__image {
+    height: 200px;
+    width: 200px;
+  }
+
+  &__name {
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    color: $base-second-color;
+    text-decoration: none;
+  }
+
+  &__play {
+    height: 100%;
+    width: 100%;
+  }
+
+  &:hover {
+    border-color: $base-color;
+  }
+}

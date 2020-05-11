@@ -1,0 +1,27 @@
+@import "~$scss/variables.scss";
+@import "~$scss/font.scss";
+
+.list {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: $base-text-color;
+  color: $base-second-color;
+
+  &__content_row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__content_row-slider {
+    display: flex;
+    overflow: hidden;
+  }
+  &__content_column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    padding: 20px 0 0 20px;
+    font: 16px "Yandex Sans Medium"
+  }
+}

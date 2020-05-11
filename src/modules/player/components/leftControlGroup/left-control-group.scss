@@ -1,0 +1,13 @@
+.left-control-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .player-controll-buttons,
+  .social-buttons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,31 @@
+@import "~$scss/variables.scss";
+
+.navigation{
+  width: 380px;
+  height: 70px;
+  &__links-area{
+    display: flex;
+    align-items: center;
+  }
+  &__content{
+    color:hsla(0,0%,100%,.5);
+    margin-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font: 15px Yandex Sans Regular,Arial,Helvetica,sans-serif;
+    &.current {
+      color:hsla(0,0%,100%,.85);
+      border-color: $base-border-color;
+      &:hover{
+        color: hsla(0,0%,100%,.85);
+      }
+    }
+  }
+  &__content:hover{
+    color: $base-border-color;
+  }
+  &__area{
+    margin-left: 22px;
+  }
+}

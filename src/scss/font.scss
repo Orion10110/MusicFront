@@ -1,0 +1,6 @@
+@import './mixins.scss';
+@include font-face("Yandex Sans Bold","~fonts/yandex-fonts/YandexSansText-Bold");
+@include font-face("Yandex Sans Light","~fonts/yandex-fonts/YandexSansText-Light");
+@include font-face("Yandex Sans Medium","~fonts/yandex-fonts/YandexSansText-Medium");
+@include font-face("Yandex Sans Regular","~fonts/yandex-fonts/YandexSansText-Regular");
+@include font-face("Yandex Sans Thin","~fonts/yandex-fonts/YandexSansText-Thin");

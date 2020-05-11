@@ -1,0 +1,32 @@
+@import "~$scss/font.scss";
+@import "~$scss/variables.scss";
+
+.header__input{
+
+  &__searchInput {
+
+
+  }
+}
+.search{
+  &__input-area{
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+  }
+  &__input{
+    border: 1px solid hsla(0,0%,100%,.3);
+    background-color: transparent;
+    font-family: Yandex Sans Regular, Arial,sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 4px;
+    color: $base-second-color;
+  }
+  &__input:focus{
+    outline: #ccc;
+  }
+}

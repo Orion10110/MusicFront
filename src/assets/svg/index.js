@@ -1,0 +1,12 @@
+export { PrevIcon } from './prev';
+export { NextIcon } from './next';
+export { PlaylistIcon } from './list';
+export { PlaylistAddIcon } from './plus';
+export { ShareIcon } from './share';
+export { TrackBanIcon } from './crossed';
+export { ShuffleIcon } from './shuffle';
+export { RepeatIcon } from './repeat';
+export { MutedIcon } from './volume-muted';
+export { VolumeIcon } from './volume-sprite';
+export { PlayIcon } from './play';
+export { PauseIcon } from './pause';

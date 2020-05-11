@@ -1,0 +1,15 @@
+.slider{
+  &__button{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__items{
+    transition: 250ms ease-in-out;
+    width: 9999px;
+    display: flex;
+  }
+  &__container{
+    width: 100%;
+    overflow: hidden;
+  }
+}

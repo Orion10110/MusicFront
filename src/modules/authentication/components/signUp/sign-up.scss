@@ -1,0 +1,27 @@
+@import "~$scss/variables.scss";
+
+.registration-tab {
+  width: 360px;
+  background-color: white;
+  padding: 20px;
+
+  &__error-field {
+    height: 18px;
+    font: 0.6em sans-serif;
+    color: darkred;
+  }
+
+  &__password {
+    position: relative;
+    height: 58px;
+
+    &_vis-toggle {
+      position: absolute;
+      right: 5px;
+      bottom: 2px;
+      height: 25px;
+      width: 25px;
+      fill: $placeholder-color;
+    }
+  }
+}

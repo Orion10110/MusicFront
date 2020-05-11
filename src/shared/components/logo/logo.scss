@@ -1,0 +1,11 @@
+.logo {
+  &__image {
+    object-fit: cover;
+    border-radius: 100px;
+  }
+
+  &__header {
+    margin-right: 40px;
+    margin-left: 10px;
+  }
+}

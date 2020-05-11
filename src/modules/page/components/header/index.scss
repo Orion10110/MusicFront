@@ -1,0 +1,11 @@
+@import "~$scss/variables.scss";
+.header {
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid$page-border-color;
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+}

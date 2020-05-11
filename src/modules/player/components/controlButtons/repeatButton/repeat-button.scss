@@ -1,0 +1,11 @@
+.player-loop-button {
+  width: 24px;
+  height: 24px;
+  padding-top: 2px;
+  &_on {
+    fill: #828282;
+  }
+  &_off {
+    fill: #aaaaaa;
+  }
+}

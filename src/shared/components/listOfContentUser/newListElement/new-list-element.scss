@@ -1,0 +1,21 @@
+@import "~$scss/variables.scss";
+
+.new-list-element {
+  width: 200px;
+  height: 200px;
+  margin: 23px;
+  cursor: pointer;
+
+  &__area {
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__add {
+    height: 60px;
+  }
+}

@@ -1,0 +1,10 @@
+.sign-in-tab {
+  width: 360px;
+  background-color: white;
+  padding: 20px;
+  &__error-field {
+    height: 18px;
+    font: 0.6em sans-serif;
+    color: darkred;
+  }
+}
