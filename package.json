@@ -53,7 +53,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "history": "^4.10.1",
     "json-form-data": "^1.7.1",
     "jwt-decode": "^2.2.0",
